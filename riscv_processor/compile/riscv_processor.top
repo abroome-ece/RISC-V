@@ -1,0 +1,8 @@
+tb_nand_gate ENTITY
+tb_not_gate ENTITY
+xnor_gate ENTITY
+tb_or_gate ENTITY
+tb_nor_gate ENTITY
+tb_and_gate ENTITY
+tb_cla_block ENTITY
+mux2to1 ENTITY

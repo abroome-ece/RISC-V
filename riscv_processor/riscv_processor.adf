@@ -1,0 +1,77 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=riscv_processor
+
+[Library]
+riscv_processor=.\riscv_processor\riscv_processor.lib
+
+[$LibMap$]
+riscv_processor=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Files]
+/nand_gate.vhd=-1
+/or_gate.vhd=-1
+/not_gate.vhd=-1
+/and_gate.vhd=-1
+/tb_and_gate.vhd=-1
+/tb_nand_gate.vhd=-1
+/tb_or_gate.vhd=-1
+/tb_nand_gate.awc=-1
+/tb_and_gate.awc=-1
+/tb_or_gate.awc=-1
+/nor_gate.vhd=-1
+/tb_not_gate.vhd=-1
+/tb_not_gate.awc=-1
+/tb_nor_gate.vhd=-1
+/xor_gate.vhd=-1
+/xnor_gate.vhd=-1
+/alu.vhd=-1
+/four_and_gate.vhd=-1
+/four_or_gate.vhd=-1
+/cla_block.vhd=-1
+/tb_cla_block.vhd=-1
+/mux2to1.vhd=-1
+
+[Files.Data]
+.\src\nand_gate.vhd=VHDL Source Code
+.\src\or_gate.vhd=VHDL Source Code
+.\src\not_gate.vhd=VHDL Source Code
+.\src\and_gate.vhd=VHDL Source Code
+.\src\tb_and_gate.vhd=VHDL Source Code
+.\src\tb_nand_gate.vhd=VHDL Source Code
+.\src\tb_or_gate.vhd=VHDL Source Code
+.\src\tb_nand_gate.awc=Accelerated Waveform Configuration
+.\src\tb_and_gate.awc=Accelerated Waveform Configuration
+.\src\tb_or_gate.awc=Accelerated Waveform Configuration
+.\src\nor_gate.vhd=VHDL Source Code
+.\src\tb_not_gate.vhd=VHDL Source Code
+.\src\tb_not_gate.awc=Accelerated Waveform Configuration
+.\src\tb_nor_gate.vhd=VHDL Source Code
+.\src\xor_gate.vhd=VHDL Source Code
+.\src\xnor_gate.vhd=VHDL Source Code
+.\src\alu.vhd=VHDL Source Code
+.\src\four_and_gate.vhd=VHDL Source Code
+
+.\src\four_or_gate.vhd=VHDL Source Code
+.\src\cla_block.vhd=VHDL Source Code
+.\src\tb_cla_block.vhd=VHDL Source Code
+.\src\mux2to1.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=mux2to1|Behavioral|0 tb_cla_block|Behavioral|0  
+ShowHide=ShowTopLevel
+Selected=

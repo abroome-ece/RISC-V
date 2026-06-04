@@ -1,0 +1,188 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+acom -reorder -O3 -e 100 -work riscv_processor -2002  $dsn/src/nand_gate.vhd $dsn/src/or_gate.vhd $dsn/src/not_gate.vhd $dsn/src/and_gate.vhd $dsn/src/tb_and_gate.vhd $dsn/src/tb_nand_gate.vhd $dsn/src/tb_or_gate.vhd $dsn/src/nor_gate.vhd $dsn/src/tb_not_gate.vhd $dsn/src/tb_nor_gate.vhd $dsn/src/xor_gate.vhd $dsn/src/xnor_gate.vhd $dsn/src/alu.vhd $dsn/src/four_and_gate.vhd $dsn/src/four_or_gate.vhd $dsn/src/cla_block.vhd $dsn/src/tb_cla_block.vhd $dsn/src/mux2to1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/nand_gate.vhd
+# Compile Entity "nand_gate"
+# Compile Architecture "Behavioral" of Entity "nand_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/or_gate.vhd
+# Compile Entity "or_gate"
+# Compile Architecture "Behavioral" of Entity "or_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/not_gate.vhd
+# Compile Entity "not_gate"
+# Compile Architecture "Behavioral" of Entity "not_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/and_gate.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "Behavioral" of Entity "and_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/tb_and_gate.vhd
+# Compile Entity "tb_and_gate"
+# Compile Architecture "Behavioral" of Entity "tb_and_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/tb_nand_gate.vhd
+# Compile Entity "tb_nand_gate"
+# Compile Architecture "Behavioral" of Entity "tb_nand_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/tb_or_gate.vhd
+# Compile Entity "tb_or_gate"
+# Compile Architecture "Behavioral" of Entity "tb_or_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/nor_gate.vhd
+# Compile Entity "nor_gate"
+# Compile Architecture "Behavioral" of Entity "nor_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/tb_not_gate.vhd
+# Compile Entity "tb_not_gate"
+# Compile Architecture "Behavioral" of Entity "tb_not_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/tb_nor_gate.vhd
+# Compile Entity "tb_nor_gate"
+# Compile Architecture "Behavioral" of Entity "tb_nor_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/xor_gate.vhd
+# Compile Entity "xor_gate"
+# Compile Architecture "Behavioral" of Entity "xor_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/xnor_gate.vhd
+# Compile Entity "xnor_gate"
+# Compile Architecture "Behavioral" of Entity "xnor_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/alu.vhd
+# Warning: COMP96_0003: Source file "C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/alu.vhd" is empty.
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/four_and_gate.vhd
+# Compile Entity "four_and_gate"
+# Compile Architecture "Structual" of Entity "four_and_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/four_or_gate.vhd
+# Compile Entity "four_or_gate"
+# Compile Architecture "Structual" of Entity "four_or_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/cla_block.vhd
+# Compile Entity "cla_block"
+# Compile Architecture "Behavioral" of Entity "cla_block"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/tb_cla_block.vhd
+# Compile Entity "tb_cla_block"
+# Compile Architecture "Behavioral" of Entity "tb_cla_block"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/mux2to1.vhd
+# Compile Entity "mux2to1"
+# Compile Architecture "Behavioral" of Entity "mux2to1"
+# Top-level unit(s) detected:
+# Entity => tb_nand_gate
+# Entity => tb_not_gate
+# Entity => xnor_gate
+# Entity => tb_or_gate
+# Entity => tb_nor_gate
+# Entity => tb_and_gate
+# Entity => tb_cla_block
+# Error: COMP96_0015: mux2to1.vhd : (17, 6): ')' expected.
+# Error: COMP96_0015: mux2to1.vhd : (17, 6): ';' expected.
+# Compile failure 2 Errors 1 Warnings  Analysis time :  0.9 [s]
+acom -reorder -O3 -e 100 -work riscv_processor -2002  $dsn/src/nand_gate.vhd $dsn/src/or_gate.vhd $dsn/src/not_gate.vhd $dsn/src/and_gate.vhd $dsn/src/tb_and_gate.vhd $dsn/src/tb_nand_gate.vhd $dsn/src/tb_or_gate.vhd $dsn/src/nor_gate.vhd $dsn/src/tb_not_gate.vhd $dsn/src/tb_nor_gate.vhd $dsn/src/xor_gate.vhd $dsn/src/xnor_gate.vhd $dsn/src/alu.vhd $dsn/src/four_and_gate.vhd $dsn/src/four_or_gate.vhd $dsn/src/cla_block.vhd $dsn/src/tb_cla_block.vhd $dsn/src/mux2to1.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/nand_gate.vhd
+# Compile Entity "nand_gate"
+# Compile Architecture "Behavioral" of Entity "nand_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/or_gate.vhd
+# Compile Entity "or_gate"
+# Compile Architecture "Behavioral" of Entity "or_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/not_gate.vhd
+# Compile Entity "not_gate"
+# Compile Architecture "Behavioral" of Entity "not_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/and_gate.vhd
+# Compile Entity "and_gate"
+# Compile Architecture "Behavioral" of Entity "and_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/tb_and_gate.vhd
+# Compile Entity "tb_and_gate"
+# Compile Architecture "Behavioral" of Entity "tb_and_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/tb_nand_gate.vhd
+# Compile Entity "tb_nand_gate"
+# Compile Architecture "Behavioral" of Entity "tb_nand_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/tb_or_gate.vhd
+# Compile Entity "tb_or_gate"
+# Compile Architecture "Behavioral" of Entity "tb_or_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/nor_gate.vhd
+# Compile Entity "nor_gate"
+# Compile Architecture "Behavioral" of Entity "nor_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/tb_not_gate.vhd
+# Compile Entity "tb_not_gate"
+# Compile Architecture "Behavioral" of Entity "tb_not_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/tb_nor_gate.vhd
+# Compile Entity "tb_nor_gate"
+# Compile Architecture "Behavioral" of Entity "tb_nor_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/xor_gate.vhd
+# Compile Entity "xor_gate"
+# Compile Architecture "Behavioral" of Entity "xor_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/xnor_gate.vhd
+# Compile Entity "xnor_gate"
+# Compile Architecture "Behavioral" of Entity "xnor_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/alu.vhd
+# Warning: COMP96_0003: Source file "C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/alu.vhd" is empty.
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/four_and_gate.vhd
+# Compile Entity "four_and_gate"
+# Compile Architecture "Structual" of Entity "four_and_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/four_or_gate.vhd
+# Compile Entity "four_or_gate"
+# Compile Architecture "Structual" of Entity "four_or_gate"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/cla_block.vhd
+# Compile Entity "cla_block"
+# Compile Architecture "Behavioral" of Entity "cla_block"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/tb_cla_block.vhd
+# Compile Entity "tb_cla_block"
+# Compile Architecture "Behavioral" of Entity "tb_cla_block"
+# File: C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/mux2to1.vhd
+# Compile Entity "mux2to1"
+# Compile Architecture "Behavioral" of Entity "mux2to1"
+# Top-level unit(s) detected:
+# Entity => tb_nand_gate
+# Entity => tb_not_gate
+# Entity => xnor_gate
+# Entity => tb_or_gate
+# Entity => tb_nor_gate
+# Entity => tb_and_gate
+# Entity => tb_cla_block
+# Entity => mux2to1
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.3 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+mux2to1 mux2to1 Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6046 kB (elbread=256 elab2=5652 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Ryaustonia\Desktop\ALDEC\riscv_processor\riscv_processor\src\wave.asdb
+#  9:23 PM, Wednesday, June 3, 2026
+#  Simulation has been initialized
+# 3 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/wave.asdb'.
+run 15us
+# KERNEL: stopped at time: 15 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6046 kB (elbread=256 elab2=5652 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Ryaustonia\Desktop\ALDEC\riscv_processor\riscv_processor\src\wave.asdb
+#  9:28 PM, Wednesday, June 3, 2026
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Ryaustonia/Desktop/ALDEC/riscv_processor/riscv_processor/src/wave.asdb'.
+run 15us
+# KERNEL: stopped at time: 15 us
