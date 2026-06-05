@@ -1,3 +1,6 @@
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\riscv_processor\src\mux2to1.vhd|]
+TemplateId=0
+tab=lu
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\riscv_processor\src/four_or_gate.vhd|]
 TemplateId=0
 tab=lu
@@ -16,6 +19,16 @@ tab=lu
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\riscv_processor\src/xor_gate.vhd|]
 TemplateId=0
 tab=lu
-[OPENDOC|Aldec.Hde.HdePlugIn.7|.\riscv_processor\src\mux2to1.vhd|]
+[OPENDOC|Aldec.WaveFormASDB.7|.\riscv_processor\src/mux4to1.awc|]
+TemplateId=0
+ActiveDocument=1
+tab=lu
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\riscv_processor\src\mux8to1.vhd|]
+TemplateId=0
+tab=lu
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\riscv_processor\src/mux4to1.vhd|]
+TemplateId=0
+tab=lu
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\riscv_processor\src\mux16to1.vhd|]
 TemplateId=0
 tab=lu

@@ -38,29 +38,29 @@ architecture Behavioral of mux2to1 is
     
 begin
 	
-	u1: and_gate
-		port map (
-			A => A(0),
-			B => S,
-            F => n0
-        );
-		
-	u2: not_gate
+	u1: not_gate
 		port map (
 		 	A => S,
+    		F => n0
+    	);
+	
+	u2: and_gate
+		port map (
+			A => A(0),
+			B => n0,		
             F => n1
         );
 		
 	u3: and_gate
         port map (
             A => A(1),
-            B => n1,
+            B => S,
             F => n2
         );
 		
 	u4: or_gate
         port map (
-            A => n0,
+            A => n1,
             B => n2,
             F => F
         );

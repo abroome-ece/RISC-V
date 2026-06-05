@@ -3,12 +3,12 @@
 	<document type="stimulators" version="1">
 		<set name="ASDB Stimulators" active="1">
 			<stimulator>
-				<signal_path value="/mux2to1/A"/>
+				<signal_path value="/mux4to1/A"/>
 				<rawdescription value="CNT:FRM:Override:\counter\TYPE\1\DIR\1\RADIX\10\START\0\INC\1\PERIOD\100 ns\REV\0:Binary Counter:1:"/>
 			</stimulator>
 			<stimulator>
-				<signal_path value="/mux2to1/S"/>
-				<rawdescription value="CLK:FRM:Override:1.000000;3;1;0;50;1:Clock:1:"/>
+				<signal_path value="/mux4to1/S"/>
+				<rawdescription value="VAL:FRM:Override:0:&lt;= 0:1:"/>
 			</stimulator>
 		</set>
 	</document>

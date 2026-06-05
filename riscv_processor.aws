@@ -10,3 +10,5 @@ order=1
 macro=
 [Expand]
 riscv_processor=1
+[Settings]
+Active=riscv_processor

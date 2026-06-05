@@ -1,15 +1,16 @@
-Active-HDL 12.0.118.7745 2026-06-03 21:28:20
+Active-HDL 12.0.118.7745 2026-06-04 04:55:52
 
 Elaboration top modules:
-Architecture                  Behavioral(mux2to1)
+Architecture                  Behavioral(mux4to1)
 
 
 --------------------------------------------------------------------------------------------------
 Entity    | Architecture | Library         | Info | Compiler Version        | Compilation Options
 --------------------------------------------------------------------------------------------------
+mux4to1   | Behavioral   | riscv_processor |      | 12.0.118.7745 (Windows) | -O3
 mux2to1   | Behavioral   | riscv_processor |      | 12.0.118.7745 (Windows) | -O3
-and_gate  | Behavioral   | riscv_processor |      | 12.0.118.7745 (Windows) | -O3
 not_gate  | Behavioral   | riscv_processor |      | 12.0.118.7745 (Windows) | -O3
+and_gate  | Behavioral   | riscv_processor |      | 12.0.118.7745 (Windows) | -O3
 or_gate   | Behavioral   | riscv_processor |      | 12.0.118.7745 (Windows) | -O3
 nand_gate | Behavioral   | riscv_processor |      | 12.0.118.7745 (Windows) | -O3
 --------------------------------------------------------------------------------------------------
