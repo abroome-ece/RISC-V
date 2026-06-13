@@ -18,4 +18,7 @@
 "C:/Users/ryaus/Desktop/RISC-V/riscv_processor/src/mux2to1.vhd" VHDL riscv_processor 1 0 0 -02
 "C:/Users/ryaus/Desktop/RISC-V/riscv_processor/src/mux8to1.vhd" VHDL riscv_processor 1 0 0 -02
 "C:/Users/ryaus/Desktop/RISC-V/riscv_processor/src/mux4to1.vhd" VHDL riscv_processor 1 0 0 -02
+"C:/Users/ryaus/Desktop/RISC-V/riscv_processor/src/mux16to1.vhd" VHDL riscv_processor 1 0 0 -02
+"C:/Users/ryaus/Desktop/RISC-V/riscv_processor/src/decoder1to2.vhd" VHDL riscv_processor 1 0 0 -02
+"C:/Users/ryaus/Desktop/RISC-V/riscv_processor/src/decoder4to1.vhd" VHDL riscv_processor 0 0 0 -02
 . . 0 0 0

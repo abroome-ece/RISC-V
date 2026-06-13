@@ -19,3 +19,8 @@
 .\src\mux8to1.vhd
 .\src\mux4to1.vhd
 .\src\mux16to1.vhd
+.\src\decoder1to2.vhd
+.\src\decoder2to4.vhd
+.\src\decoder3to8.vhd
+.\src\decoder4to16.vhd
+.\src\decoder5to32.vhd

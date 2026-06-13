@@ -20,12 +20,13 @@ LANGUAGE=VHDL
 REFRESH_FLOW=1
 FLOWTOOLS=NONE
 FAMILY=
+fileopenfolder=C:\Users\ryaus\Desktop\RISC-V\riscv_processor\src
 
 [SpecTracer]
 WindowVisible=0
 
 [HierarchyViewer]
-HierarchyInformation=mux4to1|Behavioral|0 
+HierarchyInformation=mux4to1|Behavioral|0  
 ShowHide=ShowTopLevel
 Selected=
 
@@ -93,6 +94,11 @@ wave.asdbw\current=1
 /mux16to1.vhd=-1
 /mux4to1.asdb=-1
 /mux4to1.awc=-1
+/decoder1to2.vhd=-1
+/decoder2to4.vhd=-1
+/decoder3to8.vhd=-1
+/decoder4to16.vhd=-1
+/decoder5to32.vhd=-1
 wave.asdbw/strings.data=-1
 wave.asdbw\b48c9d0a3c819a3d216a571f45301400.sid/channels.data=-1
 wave.asdbw\b48c9d0a3c819a3d216a571f45301400.sid/channels.index=-1
@@ -150,6 +156,11 @@ wave.asdbw\current/typeinfo=-1
 .\src\mux16to1.vhd=VHDL Source Code
 .\src\mux4to1.asdb=Accelerated Waveform File
 .\src\mux4to1.awc=Accelerated Waveform Configuration
+.\src\decoder1to2.vhd=VHDL Source Code
+.\src\decoder2to4.vhd=VHDL Source Code
+.\src\decoder3to8.vhd=VHDL Source Code
+.\src\decoder4to16.vhd=VHDL Source Code
+.\src\decoder5to32.vhd=VHDL Source Code
 .\src\wave.asdbw\strings.data=External File
 .\src\wave.asdbw\b48c9d0a3c819a3d216a571f45301400.sid\channels.data=External File
 .\src\wave.asdbw\b48c9d0a3c819a3d216a571f45301400.sid\channels.index=External File

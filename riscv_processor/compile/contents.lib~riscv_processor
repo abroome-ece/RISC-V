@@ -1,12 +1,18 @@
-84
+90
 ~E 1 "../src/and_gate.vhd" 4 and_gate
 ~A 1 "../src/and_gate.vhd" 12 Behavioral
 ~E 1 "../src/cla_block.vhd" 4 cla_block
 ~A 1 "../src/cla_block.vhd" 15 Behavioral
+~E 1 "../src/decoder1to2.vhd" 4 decoder1to2
+~A 1 "../src/decoder1to2.vhd" 12 Behavioral
+~E 1 "../src/decoder1to2.vhd" 4 decoder2to1
+~E 1 "../src/decoder4to1.vhd" 4 decoder2to4
 ~E 1 "../src/four_and_gate.vhd" 4 four_and_gate
 ~A 1 "../src/four_and_gate.vhd" 11 Structual
 ~E 1 "../src/four_or_gate.vhd" 4 four_or_gate
 ~A 1 "../src/four_or_gate.vhd" 11 Structual
+~E 1 "../src/mux16to1.vhd" 4 mux16to1
+~A 1 "../src/mux16to1.vhd" 12 Behavioral
 ~E 1 "../src/mux2to1.vhd" 4 mux2to1
 ~A 1 "../src/mux2to1.vhd" 12 Behavioral
 ~E 1 "../src/mux4to2.vhd" 4 mux4to1

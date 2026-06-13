@@ -7,9 +7,9 @@ entity mux16to1 is
         S : in  std_logic_vector(4 downto 0);
         F : out std_logic
     );
-end mux8to1;
+end mux16to1;
 
-architecture Behavioral of mux8to1 is
+architecture Behavioral of mux16to1 is
 
 	component mux4to1 is
     port (
